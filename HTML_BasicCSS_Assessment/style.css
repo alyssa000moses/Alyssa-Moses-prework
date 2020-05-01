@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: rgb(48, 156, 184);
+  text-align: center;
+  font-family: Arial, Helvetica,sans-serif;
+  font-weight: bold;
+  margin: 100px;
+}
+
+.upper {
+  color:black;
+  font-size: 8px;
+  
+
+}
+
+.center {
+  color: white;
+  font-size: 42px;
+
+}
+
+.lower {
+  font-size: 8px;
+  color:white;
+  outline: 1px solid white;
+  padding: 5px;
+
+}
