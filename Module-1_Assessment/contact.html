@@ -21,11 +21,21 @@
         <div id="contact-form-box" class="container">
             <h2>Contact</h2>
             <hr>
-            <Form>
-                <input type="text">Name
-                <input type="email">email
-                <input type=text-area>Message
-                <button>Submit</button>
+            <Form action="index.html">
+                <div class="form-group">
+                    <label for="name-input">Name:</label><br>
+                    <input type="email" class="form-control" id="name-input"  placeholder="Jane Smith"><br>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Email:</label><br>
+                    <input type="email" class="form-control" id="contact-email" placeholder="name@email.com"><br>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message">Message</label><br>
+                    <textarea class="form-control" rows="8" id="contact-message" ></textarea><br>
+                </div>           
+
+                <button type="submit" class="btn btn-primary">Submit</button>
             </Form>
 
         </div>
