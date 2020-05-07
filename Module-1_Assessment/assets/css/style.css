@@ -1,0 +1,31 @@
+#navbar-name {
+    background: #4aaaa5;
+    padding: 20px;
+    color:white;
+}
+
+#nav-link {
+    padding: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+body {
+    color: #777777;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    border-top-style: solid;
+    border-width: 8px;
+    border-color: #4aaaa5;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+  }
