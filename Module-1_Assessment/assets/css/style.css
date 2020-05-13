@@ -3,7 +3,14 @@ body {
     font-family: Arial, 'Helvicta Neue', Helvetica, sans-serif;
     /*fix it please */
     background-image: url(../images/moroccan-flower/moroccan-flower.png);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
+#container1, #container2, #container3 {
+    min-height: 100%;
+    position: relative;
 }
 
 /*fix please- main header background color, main header border color*/
@@ -23,6 +30,10 @@ hr {
     background-color: #ffffff;
     border: 2px solid #dddddd;
     padding: 15px;
+}
+
+#body1, #body2, #body3 {
+    padding-bottom: 60px;
 }
 .navbar {
     max-width:960px;
@@ -48,13 +59,8 @@ h2 {
     font-weight: bold;
 }
 
-body {
-    color: #777777;
-}
-
-footer {
-    position: fixed;
-    left: 0;
+#footer1, #footer2, #footer3 {
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding-top: 20px;
@@ -106,4 +112,8 @@ footer {
     color: white;
     padding-top: 10px;
     width: 100%;
+  }
+
+  li{
+      list-style: none;
   }
