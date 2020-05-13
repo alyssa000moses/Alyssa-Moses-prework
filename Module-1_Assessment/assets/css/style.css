@@ -1,3 +1,10 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {
     color: #777777;
     font-family: Arial, 'Helvicta Neue', Helvetica, sans-serif;
@@ -29,7 +36,7 @@ hr {
     max-width: 960px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
-    padding: 15px;
+    
 }
 
 #body1, #body2, #body3 {
