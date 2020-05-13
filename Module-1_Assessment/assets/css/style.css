@@ -1,3 +1,37 @@
+body {
+    color: #777777;
+    font-family: Arial, 'Helvicta Neue', Helvetica, sans-serif;
+    /*fix it please */
+    background-image: url(../images/moroccan-flower/moroccan-flower.png);
+
+}
+
+/*fix please- main header background color, main header border color*/
+header {
+    background-color:#ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+hr {
+    border-top: 4px solid #dddddd;
+}
+/*fix please-*/
+.main-content {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 960px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 15px;
+}
+.navbar {
+    max-width:960px;
+    margin:auto;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
 #navbar-name {
     background: #4aaaa5;
     padding: 20px;
@@ -10,6 +44,8 @@
 
 h2 {
     color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 body {
@@ -28,4 +64,46 @@ footer {
     background-color: #666666;
     color: white;
     text-align: center;
+  }
+
+  /*Have text wrap around image on about me page */
+  #floated {
+      float: left;
+      margin: 10px;
+
+  }
+  /*make image on about me responsive*/
+  .responsive {
+        width:30%;
+        height:auto;
+  }
+
+  #about-me-text {
+      font-size: 20px;
+  }
+
+  #submit-button {
+      background:#4aaaa5;
+      border-color: white;
+  }
+
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin:20px; 
+  }
+
+  .image-container img {
+      width: 100%;
+  }
+
+
+  .text-block {
+    position: absolute;
+    bottom: 10px;
+    background-color:#4aaaa5;
+    color: white;
+    padding-top: 10px;
+    width: 100%;
   }

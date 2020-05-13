@@ -106,7 +106,7 @@ const handleKeyPressed= (event)=> {
                     //if remainingGuesses is 0, trigger, gameover/restart
                     if (game.remainingGuesses === 0) {
                         setTimeout(() => {
-                            alert('You ran out of guesses! You lose!')
+                            alert('You ran out of guesses! You lose!');
                             dispGuesRem.innerText = 0;
                             endOfGame();
                         }, 0);
