@@ -7,17 +7,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="page-conatiner">
-        <nav>Nav</nav> 
-        <div id="content-wrap"> <!--a container that doesn't include nav and footer-->
-            <div id="left"class="text-container">            
-                <div >Left</div>                
-            </div>
-            <div id="right" class="text-container">
-                <div>Right</div> 
-            </div>
-        </div>
-        <footer>Footer</footer>
-    </div>       
+    <div id="container">
+            <header id="header">
+                    <nav>Nav</nav> 
+                </header>
+                <div id="body">
+                    <div id="content-wrap"> <!--a container that doesn't include nav and footer-->
+                        <div id="left"class="text-container">            
+                            <div >Left</div>                
+                        </div>
+                        <div id="right" class="text-container">
+                            <div>Right</div> 
+                        </div>
+                        <div id="clear-float"></div>
+                    </div>  
+                </div>
+                <footer id="footer">Footer</footer>  
+    </div>
+         
 </body>
 </html>
