@@ -2,18 +2,13 @@
 const dictionary = ['Alexis', 'David', 'Moira', 'Johnny', 'Stevie', 'Patrick', 'Roland', 'Jocelyn'];
 let gameCounter = 0;
 let wins = 0;
-let keyPressed = '';
-
-
 
 /*Objects*/
-
 const game = {
     currentWord: dictionary[gameCounter],
     currentWordInDashes:[],
     remainingGuesses: 12,
     lettersGuessed: [],
-    gameIsOver: false,
     turnCurrentWordIntoDashes: function () {
         let dashNumber = this.currentWord.length;
         for (let i= 0; i < dashNumber; i++) {
@@ -25,13 +20,13 @@ const game = {
         insideWins.innerText = wins;
 
         let dispCurWord = document.querySelector('#currentWordId');
-        dispCurWord.innerText = game.currentWordInDashes.join('');
+        dispCurWord.innerText = this.currentWordInDashes.join('');
 
         let dispGuesRem = document.querySelector('#guessesRemainingId');
-        dispGuesRem.innerText = game.remainingGuesses;
+        dispGuesRem.innerText = this.remainingGuesses;
 
         let dispAlrGues = document.querySelector('#alreadyGuessedId');
-        dispAlrGues.innerText = game.lettersGuessed.join('');   
+        dispAlrGues.innerText = this.lettersGuessed.join('');   
     },
             
             /*loop through displayed dashes and add letters */
