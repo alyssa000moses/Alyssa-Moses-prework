@@ -7,8 +7,8 @@ for (var i=0; i < 3; i++) {
     array1.push(newName);
 }
 
-alert('Now, we will show you every student on the list.');
 for (var i= 0; i < array1.length; i++) {
     console.log(array1[i]);
-    alert(array1[i]);
 }
+
+alert(`The new complete student list has been logged to the console!`);
