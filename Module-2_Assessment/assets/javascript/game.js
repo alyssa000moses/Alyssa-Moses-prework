@@ -45,7 +45,7 @@ game.display();
 
 const endOfGame =() => {
     console.log('end');
-    if (gameCounter === 8) {
+    if (gameCounter === 7) {
         gameCounter = 0;
     } else {
         gameCounter ++;
